@@ -1,0 +1,40 @@
+# --- C build rotzooi ---
+*.o
+*.a
+*.so
+*.out
+*.exe
+*.dll
+
+# --- CMake / Make / build directories ---
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# --- Docker ---
+*.tar
+docker-data/
+.docker/
+
+# --- Editor / OS rotzooi ---
+*.swp
+*.swo
+*.tmp
+*.log
+*.bak
+
+# --- VSCode ---
+.vscode/
+*.code-workspace
+
+# --- Windows garbage ---
+Thumbs.db
+Desktop.ini
+
+# --- Pigpio ---
+pigpio/build/
+pigpio/*.o
+pigpio/*.so
+pigpio/*.a
